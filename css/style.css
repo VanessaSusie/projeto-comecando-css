@@ -3,18 +3,6 @@ html {
     font-size: 23px;
 }
 
-h1 {
-    margin:0;
-    color:rgb(128, 187, 241);
-    font-size:60px;
-    font-family:cursive;
-    font-stretch:expanded;
-    text-align: center;
-    letter-spacing: 1px;
-    text-shadow: 3px 3px 1px rgb(221, 141, 245);
-
-}
-
 body {
         
     background-image: url("../img/totoro.png");
@@ -27,37 +15,84 @@ body {
     border: 3px solid rgb(210, 110, 235);  
 }
 
-.p1 {
-    color:rgb(6, 7, 7);
-    line-height: 1px;
-    text-align: center;
-    font-size: 25px;
-    text-shadow: 1px 2px 2px rgb(209, 126, 202);
+.container {
+    display:flex;
 }
 
-.p2 {
-    line-height: 1px;
-    text-align:center;
-    font-size:20px;
+.header-image {
+    width: 35%;
+    
+}
+
+.header-title {
+    width: 65%;
+
+}
+
+.title {
+    margin:0;
+    color:rgb(128, 187, 241);
+    font-size:60px;
+    font-family:cursive;
+    font-stretch:expanded;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 1px rgb(221, 141, 245);
+
+}
+
+.sub-title-2 {
+    line-height: 2px;
+    font-size:25px;
     color: rgb(233, 102, 215);
     text-shadow: 1px 1px 2px rgb(236, 28, 28);
+    margin-left: 60px;
 }
 
-.p3 {
+.sub-title-3 {
+    color:rgb(6, 7, 7);
+    line-height: 31px;
+    font-size: 18px;
+    text-shadow: 1px 2px 2px rgb(209, 126, 202);
+    margin-left: 15.5%;
+}
+
+
+/* .audio-cont {
+    display: flex;
+    justify-content: center;
+
+} */
+
+audio {
+    margin-left: 85px;
+}
+
+.container-text-format {
+    width: 67%;
+    margin-left: 15px;
+
+}
+
+
+
+p {
     color:rgb(6, 5, 7);
     font-size: 18px;
     padding-left: 2px;
     padding-right: 15px;
     padding-top:20px;
     text-align: justify;
+    text-indent:40px;
 }
 
-img {
+.image {
     display: block;
-    margin-left: 680px;
+    margin-left: 2%;
+    
+}
+ 
+figcaption {
+    font-size: 9px;
+    margin-left: 5%;
 }
 
-figcaption {
-    text-align: center;
-    font-size: 9px;
-}
